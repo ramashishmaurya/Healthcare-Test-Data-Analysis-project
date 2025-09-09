@@ -36,7 +36,7 @@ This project provides an end-to-end solution to segment banking customers based 
  
 ---
 ## 📸 Dashboard 
-![App Screenshot](https://github.com/ramashishmaurya/Project-Customer-Segmentation-for-Personalized-Banking-Services/blob/main/powerbi_page-0001.jpg)
+![App Screenshot](https://github.com/ramashishmaurya/Healthcare-Test-Data-Analysis-project/blob/main/newdocs_page-0001.jpg)
 
 -----
 
