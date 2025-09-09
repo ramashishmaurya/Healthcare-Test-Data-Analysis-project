@@ -1,20 +1,21 @@
-# 🧠 Healthcare Test Data Analysis Project
+## 🧠 Healthcare Test Data Analysis Project
 
-This project provides an end-to-end solution to segment banking customers based on their behavior and spending patterns using machine learning, and visualizes these insights using **Power BI** and **Streamlit**. It helps banks like **Goldman Sachs** offer tailored financial services.
-
+Analyzed 100k+ diagnostic test records (Kidney_ACR, Hemoglobin, Sperm_Count, Ovulation) using MySQL, Python, and Excel/Power BI.
+Built dashboards with Pivot Tables, Slicers, and interactive visualizations to uncover trends in test frequency,
+regional patterns, and sales performance.
+Delivered insights on top-performing tests, seasonal demand, and channel effectiveness to support data-driven decision-making.
 
 ---
 
 ## 📌 Key Features
 
-- Extracts and processes customer transaction data
-- Performs segmentation using **K-Means clustering**
+ - Insight Generation → Identified top tests (Kidney_ACR, Hemoglobin, etc.), seasonal patterns, and regional demand.
+- Python Analytics → Used Pandas for cleaning, grouping, and time series analysis of test data.
 - Visualizes insights in **Power BI**
 - Built with:
   - Python 🐍
   - Pandas, NumPy, scikit-learn
-  - Streamlit (for web deployment)
-  - MySQL (for data storage)
+  - MySQL (for data storage) and solving business challanges question 
   - Power BI (for visualization)
 
 ---
@@ -22,43 +23,22 @@ This project provides an end-to-end solution to segment banking customers based 
 ![App Screenshot](https://github.com/ramashishmaurya/Healthcare-Test-Data-Analysis-project/blob/main/Screenshot%202025-09-09%20090010.png)
 
 ## Interactive Dashboard Overview
-   This interactive dashboard provides a comprehensive view of Customer Segmentation for Personalized Banking Services. Built using Power BI, it allows users to explore customer demographics, spending patterns, preferred payment methods, and income distributions across various segments.
-   
-## Key Features:
- Gender & Occupation Filters: Dynamically filter customer data based on gender or profession to uncover personalized insights.
- Spending Categories: Visualize how customers allocate their expenses across categories like Bills, Food, Healthcare, Travel, and more.
- 
- Customer Distribution by City:
- Understand geographic concentration with a city-wise breakdown of customer count.
- Mode of Payment by Company:
- Analyze which companies (e.g., Paytm, Swiggy, Uber) customers prefer for credit or debit transactions.
- Income Distribution by Occupation: Get insights into average income across different job roles to tailor banking products accordingly.
- 
+
+The dashboard provides an interactive view of healthcare test data, integrating slicers, filters, and charts for easy exploration.
+It tracks test volumes, regional performance, and sales channels, allowing users to identify top tests and seasonal trends.
+Built with Excel Pivot Tables & Power BI, it enables quick, data-driven insights for decision-making.
+
 ---
 ## 📸 Dashboard 
 ![App Screenshot](https://github.com/ramashishmaurya/Healthcare-Test-Data-Analysis-project/blob/main/newdocs_page-0001.jpg)
 
 -----
 
-
-
-## 🛠️ Tech Stack
-
-| Tool        | Purpose                        |
-|-------------|--------------------------------|
-| Python      | Backend and ML processing      |
-| scikit-learn| Machine learning clustering    |
-| Pandas/Numpy| Data wrangling and analysis    |
-| MySQL       | Structured data storage        |
-| Power BI    | Business visualizations        |
-| Streamlit   | User interface & deployment    |
-
----
-
 ## 📦 Requirements
 
-Python version: `3.12.8`  
-Required libraries (`requirements.txt`):
+ Python version: `3.12.8`  
+ power bi 
+ Excel 
 
 
 
@@ -73,16 +53,8 @@ Required libraries (`requirements.txt`):
 
 ```bash
 # Clone the repo
-git clone https://github.com/ramashishmaurya/Project-Customer-Segmentation-for-Personalized-Banking-Services.git
-cd Project-Customer-Segmentation-for-Personalized-Banking-Services
+git clone https://github.com/ramashishmaurya/Healthcare-Test-Data-Analysis-project.git
 
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+cd https://github.com/ramashishmaurya/Healthcare-Test-Data-Analysis-project.git
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
 
